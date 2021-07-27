@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "InstanceLevelCollision",
+	"Description": "Create collision mesh from LevelInstance or StatiMeshActor",
+	"Category": "Other",
+	"CreatedBy": "Marien El Alaoui",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.0.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "InstanceLevelCollision",
+			"Type": "Editor",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms" : [ "Win64" ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryProcessing",
+			"Enabled": true
+		},
+		{
+			"Name": "MeshModelingToolset",
+			"Enabled": true
+		}
+	]
+}
